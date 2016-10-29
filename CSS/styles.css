@@ -74,7 +74,7 @@ a:hover {
 }
 
 .text_fade > a {
-  color: #5e6be5;
+  color: #FFF;
 }
 
 .text_fade > a:hover {
@@ -87,6 +87,22 @@ a:hover {
 h1 {
   text-decoration: none;
   color: #FFF;
+}
+
+h2 {
+  text-decoration: none;
+  color: #FFF;
+}
+
+h2:hover {
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-property: color;
+  color: #a164b8;
+}
+
+.panel-default {
+  background-color: #3f454a;
 }
 
 #glory-text {
